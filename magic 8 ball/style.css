@@ -1,0 +1,23 @@
+html {
+  background: url("img/istockphoto-1461048693-612x612.jpg") no-repeat fixed
+    center;
+  background-size: cover;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.8);
+  width: 600px;
+  padding: 25px 100px;
+  margin: 25px auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.eightball {
+  padding-top: 20px;
+}
