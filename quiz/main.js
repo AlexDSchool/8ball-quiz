@@ -5,7 +5,7 @@ document.getElementById("btn").addEventListener("click", BtnClicked);
 
 //function
 function BtnClicked() {
-  //things c means "correct?"
+  //things c means "correctness"
   let howmany = +document.getElementById("howmany").value;
   let howmanyc = document.getElementById("howmanyc");
   let pick = document.getElementById("pick").value.toLowerCase();
