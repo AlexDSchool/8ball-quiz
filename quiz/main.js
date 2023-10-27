@@ -1,9 +1,11 @@
+// quiz
+
 //  button event listener
 document.getElementById("btn").addEventListener("click", BtnClicked);
 
 //function
 function BtnClicked() {
-  //things
+  //things c means "correct?"
   let howmany = +document.getElementById("howmany").value;
   let howmanyc = document.getElementById("howmanyc");
   let pick = document.getElementById("pick").value.toLowerCase();
