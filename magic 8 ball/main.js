@@ -1,7 +1,9 @@
+// magic 8 ball
+
 //  ball Event Listener
 document.getElementById("8ball").addEventListener("click", BtnClicked);
 
-// some little things
+// varaibles
 let ballin = document.getElementById("8ball");
 let textin = document.getElementById("text");
 let textout = document.getElementById("output");
